@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2>Moda Men</h2>
+            <p class="about-event">
+                Uma loja onde você irá encontar do básico ao sofisticado
+            </p>
+            <p>Para todos os estilos</p>
+            <p class="event-date">Coleção primavera verão</p>
+        </div>
+        <div id="subscription-form">
+            <p>Preencha o formulário para receber as novidades em primeira mão </p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type=" text" name="name" placeholder="Digite seu nome" >
+                </div>
+                <div class="form-group">
+                    <label for="email">Elmail</label>
+                    <input type=" email" name="email" placeholder="Digite seu email" >
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type=" text" name="phone" placeholder="Digite seu Telefone" >
+                </div>
+                <div class="form-group">
+                    <label for="name">Principal Interesse</label>
+                    <select name="interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="accessories">Acessórios</option>
+                        <option value="shorts">Bermudas</option>
+                        <option value="shirts and t-shirts">Camisas e camisetas</option>
+                        <option value="perfumery">Perfumaria</option>
+                        <option value="clocks">Relógios</option>
+                        <option value="suits">Ternos</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Quero me increver">
+            
+
+            </form>
+            
+
+        </div>
+
+    </header>
+    <section id="key-benefits">
+        <h2> Temos a melhor linha de acessórios e perfumaria </h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img">  </div>
+                <p>
+                    Aqui você encontra uma variedade de perfumes nacionais e Importados.
+
+                </p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img">  </div>
+                <p>
+                    Pulseiras para as mais diversas ocasiões que você possa imaginar.
+
+                </p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img">  </div>
+                <p>
+                    Do social ao esporte, aqui você encontra as melhores marcas de relógios.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="address-details">
+                <p>Rua , 1333</p>
+                <p>Bairro:</p>
+                <p>Horário de funcionamento:</p>
+            </div>
+        </div>
+        <div id="about-location">
+            <h3>Venha conhecer nossa loja fisica </h3>
+            <p>
+                Um mundo de variedades e preço justo.
+            </p>
+        </div>
+    </section>
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/Tag confec.jpg" alt="Quarto com decoração clear">
+            <div class="detail-description">
+                <h3>Conheça a nossa linha para presentes com baixo custo e alta qualidade</h3>
+            </div>
+        </div>
+        <div class="detail" id="detail-2">
+            <div class="detail-description">
+                <h3>Linha presentes</h3>
+                <ul>
+                    <li>Produtos de alta qualidade</li>
+                    <li>Preços que é de cair o queixo</li>
+                    <li>Temos uma grande variedade de pijamas e toda linha para noite</li>
+                    <li>Pagamento facilitado no cartão de crédito</li>
+                    <li>E muito mais...</li>
+                </ul>
+                </div>
+                <img src="img/Loja de roupas araras.jpg" alt="camisetas penduradas">
+                </div>
+                <div class="detail" id="detail-3">
+                    <img src="img/Ternos.jpg" alt="Sala decorada">
+                    <div class="detail-description">
+                        <h3>Ternos</h3>
+                        <ul>
+                            <li>Ternos sob medida</li>
+                            <li>Ternos Italianos</li>
+                            <li>Ternos com 3 ou 4 botões</li>
+                            <li>Toda linha de alfaiataria</li>
+                            <li>E muito mais...</li>
+                        </ul>
+                     </div>
+                </div>
+
+    </section>
+    <section id="cta">
+        <h3> Gostou? Então venha conhecer nossa loja</h3>
+        <button class="btn">Loja online</button>
+    </section>
+    <footer id="footer">
+        <h3>Moda Men</h3>
+        <p><span>Entre em contato</span> email de contato</p>
+        <p><span>Ou pelo telofone</span> Número de telefone de contato</p>
+
+
+    </footer>
+</body>
+</html>
+
